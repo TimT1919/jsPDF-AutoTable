@@ -123,6 +123,7 @@ autoTable(doc, {
 - `cellPadding: Padding = 10`
 - `lineColor: Color = 10`
 - `lineWidth: border = 0` // If 0, no border is drawn
+- `textOptions: object? = null` // Advanced text options passed to jsPDF's doc.text function
 
 `Color`:
 Either false for transparent, hex string, gray level 0-255 or rbg array e.g. [255, 0, 0]
